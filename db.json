@@ -1,0 +1,74 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "task": "Buy milk",
+      "completed": false,
+      "date": "2025-06-06",
+      "description": "Pick up 2% milk from grocery store"
+    },
+    {
+      "id": 2,
+      "task": "Finish React project",
+      "completed": false,
+      "date": "2025-06-07",
+      "description": "Complete UI and connect to Redux store"
+    },
+    {
+      "id": 3,
+      "task": "Call Mom",
+      "completed": true,
+      "date": "2025-06-05",
+      "description": "Check in and talk about summer plans"
+    },
+    {
+      "id": 4,
+      "task": "Workout - legs",
+      "completed": false,
+      "date": "2025-06-06",
+      "description": "Deadlifts, lunges, squats"
+    },
+    {
+      "id": 5,
+      "task": "Pay electricity bill",
+      "completed": true,
+      "date": "2025-06-03",
+      "description": "Use online banking to pay before 5 PM"
+    },
+    {
+      "id": 6,
+      "task": "Read 30 pages",
+      "completed": false,
+      "date": "2025-06-08",
+      "description": "Continue reading 'Atomic Habits'"
+    },
+    {
+      "id": 7,
+      "task": "Clean kitchen",
+      "completed": false,
+      "date": "2025-06-07",
+      "description": "Wipe counters, mop floor, take out trash"
+    },
+    {
+      "id": 8,
+      "task": "Email Professor",
+      "completed": false,
+      "date": "2025-06-06",
+      "description": "Ask about office hours and thesis topic"
+    },
+    {
+      "id": 9,
+      "task": "Renew library books",
+      "completed": true,
+      "date": "2025-06-01",
+      "description": "Done via library app"
+    },
+    {
+      "id": 10,
+      "task": "Grocery shopping",
+      "completed": false,
+      "date": "2025-06-09",
+      "description": "Buy eggs, bread, spinach, chicken"
+    }
+  ]
+}
