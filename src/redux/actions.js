@@ -30,7 +30,6 @@ export const toggleTheme = () => ({
 });
 
 // Async action creators
-
 export const fetchTodos = () => async (dispatch) => {
   const res = await fetch("http://localhost:3001/todos");
   const data = await res.json();

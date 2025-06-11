@@ -15,7 +15,7 @@ export default function TodoDetails() {
   const [editable, setEditable] = useState(false);
   const [editedTodo, setEditedTodo] = useState(todo);
 
-  console.log(editedTodo)
+  // console.log(editedTodo)
 
   useEffect(() => {
     setEditedTodo(todo);
@@ -36,7 +36,6 @@ export default function TodoDetails() {
   return (
     <div>
       <h2>Todo Details</h2>
-
       <p>
         <strong>Task:</strong>{" "}
         {editable ? (
@@ -98,10 +97,6 @@ export default function TodoDetails() {
       ) : (
         <button onClick={() => setEditable(true)}>Edit</button>
       )}
-      <hr/>
-      <div>
-        <button onClick={(e)=>{navigate("/")}}>Back To Todo List</button>
-      </div>
     </div>
   );
 }
